@@ -2,9 +2,11 @@ import java.util.*;
 public class Prac6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Table of 10=> ");
+        System.out.println("Enter A number for multiplication:");
+        int v= sc.nextInt(); sc.nextLine();
+        System.out.println("Table of"+v+ " => ");
         for(int i=1; i<=10; i++) {
-            System.out.println("10 x "+i+" = "+(10*i));
+            System.out.println(v+" x "+i+" = "+(v*i));
         }
         //Write a program that takes a string as input and uses a for loop to print the string in reverse.
         String str;
